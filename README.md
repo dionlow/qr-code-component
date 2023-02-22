@@ -18,24 +18,20 @@ Keeping this project simple has reminded what can be done with just basic css an
 
 ## Overview
 
-## Screenshot
-
-![](./screenshot.jpg)
-
-#### Mobile Screenshot
+### Mobile Screenshot
 ![](./images/mobile-screenshot.png)
 
-#### Desktop Screenshot
+### Desktop Screenshot
 ![](./images/desktop-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github solution url](https://github.com/dionlow/qr-code-component)
+- Live Site URL: [QR-code-live](http://www.dionlow.me/qr-code-component/
 
 ## My process
 
-I treated this project like a first commit. I wanted to keep the tech simple and high quality. 
+I treated this project like a first commit to Frontend Mentor. I wanted to keep the tech simple and high quality. 
 
 ### Built with
 
@@ -45,7 +41,7 @@ I treated this project like a first commit. I wanted to keep the tech simple and
 
 ### What I learned
 
-An example thing that I learned was how to import google fonts so that I don't need to download a local copy. Most of the magic of happens in the `<body>` css. Flexbox allows us to elegantly center the qr container without the negative margin hack. The margin and vertical padding is set to 0 so that the 100vh can set and not need a vertical scroll. Content-box is set to explicitly follow box model and allow height, margin, and padding to be set accordingly.
+An example thing that I learned was how to import google fonts so that I don't need to download a local copy. Most of the magic of happens in the `<body>` css. Flexbox allows us to elegantly center the qr container without the negative margin hack or a need for mobile media queries. The margin and vertical padding is set to 0 so that the 100vh can set and not need a vertical scroll. Content-box is set to explicitly follow box model and allow height, margin, and padding to be set accordingly.
 
 ```css
 @import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
@@ -55,7 +51,6 @@ An example thing that I learned was how to import google fonts so that I don't n
       padding: 0 12px;
       height: 100vh;
       background-color: hsl(212, 45%, 89%); 
-      font-family: Outfit; 
       display: flex;
       justify-content: center;
       align-items: center;
