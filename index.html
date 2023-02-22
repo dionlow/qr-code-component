@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+    body { 
+      box-sizing: content-box;
+      margin: 0;
+      padding: 0 12px;
+      height: 100vh;
+      background-color: hsl(212, 45%, 89%); 
+      font-family: Outfit; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Outfit', sans-serif;      
+    }
+    .container { 
+      max-width: 20rem;
+      max-height: 50rem;
+      background-color: white;
+      padding: 1rem;
+      border-radius: 20px;
+      /* https://getcssscan.com/css-box-shadow-examples */
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    img { width: 100%; border-radius: 12px; }
+    h1 {font-weight: 700; color: hsl(218, 44%, 22%); font-size: 28px }
+    p {font-weight: 400; font-size: 15px; color: hsl(220, 15%, 55%)}
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="./images/image-qr-code.png" alt="qr-code"/>
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dion Low</a>.
+  </div>
+</body>
+</html>
